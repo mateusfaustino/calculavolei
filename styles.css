@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+    background-color: #cacaca;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+}
+
+#formbox{
+    background-color: aliceblue;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 300px;
+    border-radius: 5px;
+    border: 1px solid #cacaca ;
+    margin: 16px;
+    
+}
+
+#header{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.formfield{
+    margin-bottom: 16px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.formhoras{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    font-weight: 700;
+}
+
+.formhoras__item{
+    border: 1px solid #cacaca;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    padding: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.formhoras__item.active{
+    background-color: #bb342f;
+    color: #fff;    
+}
+
+input{
+    padding: 16px;
+    font-size: 22px;
+    border-radius: 5px;
+    border: 1px solid #cacaca;
+}
+
+button{
+    border-radius: 5px;
+    border: 1px solid #cacaca;
+    padding: 16px;
+    font-weight: 700;
+    width: 100%;
+    background-color: #1f7a8c;
+    color: #fff;
+}
+
+.error-message{
+    color: #bb342f;
+    font-size: small;
+    font-weight: 700;
+    display: none;
+}
+
+.error .error-message{
+    display: block;
+}
+
+.error input{
+    border-color: #bb342f;
+}
+
+#resposta{
+    margin-top: 16px;
+    background-color: #00AF54;
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+.resposta__header{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.resposta__body div{
+    margin-bottom: 8px;
+}
+
+#resposta1h, #resposta2h{
+    font-weight: 700;
+}
